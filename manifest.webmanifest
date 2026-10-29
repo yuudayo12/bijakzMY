@@ -1,0 +1,16 @@
+{
+  "name": "BijakzMY — Ulang Kaji Tingkatan 3",
+  "short_name": "BijakzMY",
+  "description": "Latih tubi, nota ringkas, formula dan games kuiz Tingkatan 3 KSSM.",
+  "lang": "ms",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f4fb",
+  "theme_color": "#5b3df5",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
