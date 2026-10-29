@@ -42,7 +42,8 @@
 | Geografi | ✅ | 9 bab utama (+ isu alam sekitar) |
 | Bahasa Melayu | ✅ | Tatabahasa, peribahasa, karangan, KOMSAS (unsur sastera) |
 | Bahasa Inggeris (English) | ✅ | Grammar, vocabulary, writing |
-| Pendidikan Islam / Pendidikan Moral, RBT, Asas Sains Komputer, Bahasa tambahan | ⏳ | Dicadangkan untuk versi seterusnya |
+| Pendidikan Islam | ✅ | 6 bidang: Al-Quran, Hadis, Akidah, Fiqah, Sirah, Akhlak (9 bab) + penjana soalan zakat |
+| Pendidikan Moral, RBT, Asas Sains Komputer, Bahasa tambahan | ⏳ | Dicadangkan untuk versi seterusnya |
 
 ## 3. Silibus per subjek (KSSM T3)
 
@@ -79,6 +80,16 @@
 ### Bahasa Melayu
 Tatabahasa (golongan kata, imbuhan, ayat aktif/pasif, ayat majmuk), peribahasa & simpulan bahasa, pemahaman, karangan (berpandu, ulasan, surat kiriman rasmi/tidak rasmi), KOMSAS (novel + antologi: tema, persoalan, watak, plot, latar, gaya bahasa, nilai, pengajaran). Teks KOMSAS ikut zon negeri — app mengajar **unsur sastera** yang terpakai kepada semua teks.
 
+### Pendidikan Islam (6 bidang)
+- **Al-Quran** — P1 Allah Pengampun Segala Dosa (al-A‘raf: 23), P2 Al-Quran Petunjuk Kebenaran (al-Kahfi: 1–10), P3 Hukum Tajwid: Hukum Mad (Asli, Wajib Muttasil, Jaiz Munfasil, ‘Arid Lissukun, Lin, ‘Iwad, Badal, Lazim)
+- **Hadis** — Sedekah Kunci Kebaikan, Hindari Sifat Negatif
+- **Akidah** — Allah Maha Kaya Pengurnia Rezeki, Beriman kepada Rasul, Beriman kepada Hari Akhirat, Beriman kepada Qada’ dan Qadar
+- **Fiqah** — Qiamullail, Solat Sunat Tahiyyatul Masjid & Hajat (+ ulang kaji jenazah, zakat, hari raya)
+- **Sirah** — Perjanjian Hudaibiyah & Pembukaan Kota Makkah, tokoh sahabat
+- **Akhlak** — Pemaaf Melembutkan Hati, Qana‘ah Perhiasan Diri
+
+*Nombor & tajuk pelajaran berbeza sedikit antara sumber; rujuk buku teks/DSKP rasmi untuk senarai muktamad.*
+
 ### Bahasa Inggeris
 Grammar (tenses, conditionals, passive voice, reported speech, modals, relative pronouns, prepositions), vocabulary, reading comprehension, writing (email, article, review, story) — CEFR A2/B1.
 
@@ -94,6 +105,7 @@ Grammar (tenses, conditionals, passive voice, reported speech, modals, relative 
 | Geografi | **Kira sudut carta pai**, baca graf, jenis hutan Malaysia, biom dunia, ASEAN/OPEC, kitar semula & pemuliharaan | Kemahiran geografi wajib keluar |
 | BM | Imbuhan, ayat pasif, peribahasa, unsur KOMSAS (nilai & pengajaran) | Bahagian tatabahasa & KOMSAS tetap |
 | English | Tenses, passive voice, conditionals, prepositions, vocabulary in context | Grammar cloze & MCQ |
+| Pendidikan Islam | **Hukum Mad** (kenal pasti jenis mad), sifat wajib rasul & Ulul ‘Azmi, urutan peristiwa hari akhirat, takdir mubram/mu‘allaq, isi Perjanjian Hudaibiyah & sebab Fathu Makkah, solat sunat Tahiyyatul Masjid/Hajat | Soalan kenal pasti tajwid & fakta sirah bertarikh hampir pasti keluar |
 
 ## 5. Implikasi reka bentuk app (diterjemah daripada research)
 1. **Nota ringkas + Formula** per bab — ringkas, berpoin, mudah hafal.
@@ -115,4 +127,7 @@ Grammar (tenses, conditionals, passive voice, reported speech, modals, relative 
 - Student Portal — Buku teks Geografi T3: https://studentportal.my/buku-teks-geografi-tingkatan-3/
 - Pandai — Matematik T3: https://app.pandai.org/browse/matematik-tingkatan-3-2024 · Sains T3: https://app.pandai.org/browse/sains-tingkatan-3-2024-1 · Geografi T3: https://app.pandai.org/note/list/kssm-f3/kssm-gf
 - Buku teks Sains T3 (anyflip): https://anyflip.com/anmwd/qyya/basic · Matematik T3 (anyflip): https://anyflip.com/dsfoh/extf/basic
+- Pandai — Pendidikan Islam T3: https://app.pandai.org/note/list/kssm-f3/kssm-pi · Bab Al-Quran: https://app.pandai.org/learn/chapter/kssm-f3-pi-01/al-quran · Bab Fiqah: https://app.pandai.org/learn/chapter/kssm-f3-pi-04/feqah
+- Imazzmedia — Nota Pendidikan Islam T3 KSSM: https://www.imazzmedia.com/p/nota-pendidikan-islam-tingkatan-3-kssm.html
+- DSKP Pendidikan Islam T3 (SlideShare): https://www.slideshare.net/slideshow/005-dskp-kssm-pendidikan-islam-tingkatan-3/134287454
 - Pelangi — Koleksi Kertas Model UASA T3: https://store.pelangibooks.com/products/koleksi-kertas-model-uasa-kssm-2025-tingkatan-3

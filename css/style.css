@@ -116,7 +116,7 @@ p { margin: .4rem 0; }
 .btn.sm { min-height: 34px; padding: 6px 12px; font-size: .88rem; }
 .btn[disabled] { opacity: .5; pointer-events: none; }
 
-.badge { display: inline-block; font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); vertical-align: middle; }
+.badge { display: inline-block; white-space: nowrap; font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); vertical-align: middle; }
 .badge.hot { background: #ffe9e1; color: #c2410c; }
 @media (prefers-color-scheme: dark) { .badge.hot { background: #45230f; color: #ffb38a; } }
 .badge.tp { background: var(--primary-soft); color: var(--primary); }
@@ -199,6 +199,7 @@ label.field .input { margin-top: 4px; font-weight: 400; }
 .steps li::before { content: counter(s); position: absolute; left: 0; top: 7px; width: 24px; height: 24px; border-radius: 50%; background: var(--surface); border: 1.5px solid currentColor; display: grid; place-items: center; font-size: .75rem; font-weight: 800; }
 .note-box { margin-top: 10px; background: var(--warn-soft); border-radius: 10px; padding: 10px 12px; font-size: .92rem; }
 .ai-box { margin-top: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; font-size: .93rem; white-space: pre-wrap; }
+.ar { font-size: 1.3em; line-height: 1.6; font-family: "Amiri", "Scheherazade New", "Noto Naskh Arabic", "Traditional Arabic", serif; }
 .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
 
 @keyframes pop { from { transform: scale(.97); opacity: .4; } to { transform: none; opacity: 1; } }

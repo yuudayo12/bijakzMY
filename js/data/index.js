@@ -4,8 +4,9 @@ import sejarah from "./sejarah.js";
 import geografi from "./geografi.js";
 import bm from "./bm.js";
 import english from "./english.js";
+import pi from "./pi.js";
 
-export const SUBJECTS = [matematik, sains, sejarah, geografi, bm, english];
+export const SUBJECTS = [matematik, sains, sejarah, geografi, bm, english, pi];
 
 export const SUBJECT = Object.fromEntries(SUBJECTS.map((s) => [s.id, s]));
 export const CHAPTER = {};

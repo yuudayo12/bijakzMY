@@ -436,6 +436,29 @@ export const GENERATORS = {
     };
   },
 
+  // ---------------- PENDIDIKAN ISLAM ----------------
+  zakatHarta() {
+    const nisab = pick([22000, 25000, 28000, 30000]);
+    const amt = rand(nisab / 1000 + 2, 120) * 1000;
+    const z = amt * 0.025;
+    return {
+      q: `Encik Hakim mempunyai wang simpanan ${rm(amt)} yang cukup haul (setahun). Nisab zakat semasa ialah ${rm(nisab)}. Hitung zakat simpanan yang wajib dibayar.`,
+      t: "num", a: z, u: "RM", tol: 0.01,
+      s: [`Semak nisab: ${rm(amt)} ≥ ${rm(nisab)} → wajib zakat`, `Semak haul: cukup setahun → wajib zakat`, `Zakat = 2.5% × ${amt}`, `= ${amt} × 0.025 = ${rm(z)}`],
+      n: "Zakat harta (wang simpanan, emas, perniagaan) = 2.5% jika cukup NISAB dan HAUL. Kurang nisab → tidak wajib.",
+    };
+  },
+  zakatFitrah() {
+    const n = rand(3, 9);
+    const rate = pick([5, 7, 10, 15, 21]);
+    return {
+      q: `Keluarga Pak Ali mempunyai ${n} orang ahli (termasuk Pak Ali) yang hidup pada akhir Ramadan. Kadar zakat fitrah di negerinya ialah RM${rate} seorang. Berapakah jumlah zakat fitrah yang perlu dibayar oleh Pak Ali?`,
+      t: "num", a: n * rate, u: "RM",
+      s: [`Ketua keluarga membayar zakat fitrah bagi dirinya dan tanggungannya`, `Jumlah = ${n} orang × RM${rate}`, `= ${rm(n * rate)}`],
+      n: "Zakat fitrah wajib atas setiap Muslim yang hidup pada akhir Ramadan. Afdal dibayar sebelum solat Aidilfitri.",
+    };
+  },
+
   // ---------------- GEOGRAFI ----------------
   pieAngle() {
     const parts = [rand(2, 9) * 5, rand(2, 9) * 5, rand(2, 9) * 5];

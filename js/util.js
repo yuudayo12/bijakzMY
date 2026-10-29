@@ -11,7 +11,9 @@ export function esc(s) {
 export function md(s) {
   return esc(s)
     .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
-    .replace(/`(.+?)`/g, '<span class="mono">$1</span>');
+    .replace(/`(.+?)`/g, '<span class="mono">$1</span>')
+    // Arabic runs (tajwid examples) get their own direction and a larger font.
+    .replace(/[\u0600-\u06FF][\u0600-\u06FF\s]*[\u0600-\u06FF]|[\u0600-\u06FF]/g, '<bdi class="ar" lang="ar">$&</bdi>');
 }
 
 export const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;

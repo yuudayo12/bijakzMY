@@ -1,9 +1,9 @@
 // Offline cache for the app shell. Bump VERSION whenever files change.
-const VERSION = "bijakzmy-v1";
+const VERSION = "bijakzmy-v3";
 const FILES = [
   "./", "index.html", "css/style.css", "manifest.webmanifest", "icons/icon.svg", "icons/icon-maskable.svg",
   "js/app.js", "js/util.js", "js/store.js", "js/engine.js", "js/generators.js", "js/quiz.js", "js/games.js", "js/ai.js",
-  "js/data/index.js", "js/data/matematik.js", "js/data/sains.js", "js/data/sejarah.js", "js/data/geografi.js", "js/data/bm.js", "js/data/english.js",
+  "js/data/index.js", "js/data/matematik.js", "js/data/sains.js", "js/data/sejarah.js", "js/data/geografi.js", "js/data/bm.js", "js/data/english.js", "js/data/pi.js",
 ];
 
 self.addEventListener("install", (e) => {

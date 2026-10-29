@@ -8,11 +8,11 @@ Web app untuk latih tubi dan ulang kaji **Tingkatan 3 KSSM (UASA)**. Ia mesra te
 
 | Ciri | Keterangan |
 |---|---|
-| 📚 **Nota ringkas** | Nota berpoin bagi setiap bab: 6 subjek, 46 bab |
-| 📐 **Bank Formula** | Semua formula Matematik, Sains dan Geografi, dengan carian |
+| 📚 **Nota ringkas** | Nota berpoin bagi setiap bab: 7 subjek, 55 bab |
+| 📐 **Bank Formula** | Semua formula Matematik, Sains, Geografi dan Pendidikan Islam (tajwid, zakat), dengan carian |
 | 🃏 **Kad imbas** | Kad istilah ↔ maksud untuk hafalan pantas |
 | ✍️ **Latih Tubi** | Setiap soalan ada **jawapan betul, cara kira langkah demi langkah dan nota ringkas**. Semuanya **terus dipaparkan bila jawapan salah**. |
-| ♾️ **Penjana soalan rawak** | Ada 32 penjana untuk Matematik, Sains dan Geografi. Nombor berubah setiap kali, jadi soalan tidak pernah habis dan langkah kiraan dijana automatik. |
+| ♾️ **Penjana soalan rawak** | Ada 34 penjana untuk Matematik, Sains, Geografi dan Pendidikan Islam (zakat). Nombor berubah setiap kali, jadi soalan tidak pernah habis dan langkah kiraan dijana automatik. |
 | 🔥 **Topik berpeluang tinggi** | Soalan dan bab yang kerap keluar ditanda 🔥, dan ada mod latihan khas untuknya |
 | 🔁 **Ulang Kaji Salah** | Soalan yang dijawab salah disimpan untuk diulang |
 | 📝 **Mod Peperiksaan** | Simulasi UASA bermasa (10/20/40 soalan). Keputusan dalam % dan Tahap Penguasaan TP1–TP6, beserta pembetulan penuh. |
@@ -20,7 +20,7 @@ Web app untuk latih tubi dan ulang kaji **Tingkatan 3 KSSM (UASA)**. Ia mesra te
 | 📊 **Progres** | XP, tahap, streak harian, matlamat harian, ketepatan ikut bab, dan topik lemah dicadangkan |
 | 🤖 **Cikgu AI** (pilihan) | Penerangan lebih mendalam daripada Claude, menggunakan kunci API pengguna sendiri |
 
-Subjek: **Matematik, Sains, Sejarah, Geografi, Bahasa Melayu, English**.
+Subjek: **Matematik, Sains, Sejarah, Geografi, Bahasa Melayu, English, Pendidikan Islam**.
 
 ## Jalankan secara lokal
 
