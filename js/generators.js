@@ -459,6 +459,41 @@ export const GENERATORS = {
     };
   },
 
+  // ---------------- RBT ----------------
+  rbtCost() {
+    const items = shuffle([["papan lapis", "keping", [8, 12, 15]], ["batang aluminium", "batang", [5, 6.5, 9]], ["motor servo", "unit", [12, 15, 18]], ["LED", "biji", [0.5, 0.8, 1.2]], ["skru", "kotak", [3.5, 4.5, 6]], ["papan Arduino", "unit", [35, 45, 55]], ["wayar penyambung", "set", [5, 7.5, 10]]]).slice(0, 3);
+    const rows = items.map(([n, u, ps]) => ({ n, u, q: rand(1, 5), p: pick(ps) }));
+    const total = rows.reduce((t, r) => t + r.q * r.p, 0);
+    return {
+      q: `Senarai bahan projek: ${rows.map((r) => `${r.q} ${r.u} ${r.n} (${rm(r.p)} se${r.u})`).join(", ")}. Hitung jumlah kos bahan.`,
+      t: "num", a: Math.round(total * 100) / 100, u: "RM", tol: 0.01,
+      s: [...rows.map((r) => `${r.n}: ${r.q} × ${rm(r.p)} = ${rm(r.q * r.p)}`), `Jumlah kos = ${rows.map((r) => rm(r.q * r.p)).join(" + ")} = ${rm(total)}`],
+      n: "Kos bahan = Σ (kuantiti × harga seunit). Senarai bahan & bajet ialah sebahagian daripada dokumentasi projek RBT.",
+    };
+  },
+  rbtPrice() {
+    const cost = rand(8, 60) * 5;
+    const pct = pick([10, 20, 25, 30, 40, 50]);
+    const price = cost * (1 + pct / 100);
+    return {
+      q: `Kos menghasilkan sebuah produk ialah ${rm(cost)}. Pengeluar mahu untung ${pct}%. Tentukan harga jualan produk itu.`,
+      t: "num", a: Math.round(price * 100) / 100, u: "RM", tol: 0.01,
+      s: [`Untung = ${pct}% × ${rm(cost)} = ${rm(cost * pct / 100)}`, `Harga jualan = kos + untung`, `= ${rm(cost)} + ${rm(cost * pct / 100)} = ${rm(price)}`],
+      n: "Harga jualan = kos × (1 + % untung ÷ 100). Harga ialah salah satu daripada 4P pemasaran.",
+    };
+  },
+  rbtProfit() {
+    const cost = rand(4, 40) * 5;
+    const pct = pick([10, 15, 20, 25, 40, 50]);
+    const price = cost * (1 + pct / 100);
+    return {
+      q: `Kos sebuah lampu meja automatik ialah ${rm(cost)} dan ia dijual dengan harga ${rm(price)}. Hitung peratus keuntungan.`,
+      t: "num", a: pct, u: "%", tol: 0.05,
+      s: [`Untung = ${rm(price)} − ${rm(cost)} = ${rm(price - cost)}`, `% untung = (untung ÷ kos) × 100%`, `= ${fmt(price - cost)} ÷ ${cost} × 100% = ${pct}%`],
+      n: "Peratus untung dikira berdasarkan KOS, bukan harga jualan.",
+    };
+  },
+
   // ---------------- GEOGRAFI ----------------
   pieAngle() {
     const parts = [rand(2, 9) * 5, rand(2, 9) * 5, rand(2, 9) * 5];

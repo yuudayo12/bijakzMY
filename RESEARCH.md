@@ -43,7 +43,8 @@
 | Bahasa Melayu | ✅ | Tatabahasa, peribahasa, karangan, KOMSAS (unsur sastera) |
 | Bahasa Inggeris (English) | ✅ | Grammar, vocabulary, writing |
 | Pendidikan Islam | ✅ | 6 bidang: Al-Quran, Hadis, Akidah, Fiqah, Sirah, Akhlak (9 bab) + penjana soalan zakat |
-| Pendidikan Moral, RBT, Asas Sains Komputer, Bahasa tambahan | ⏳ | Dicadangkan untuk versi seterusnya |
+| RBT (Reka Bentuk dan Teknologi) | ✅ | 3 bab buku teks (dipecah kepada 4 bab dalam app) + penjana soalan kos/harga |
+| Pendidikan Moral, Asas Sains Komputer, Bahasa tambahan | ⏳ | Dicadangkan untuk versi seterusnya |
 
 ## 3. Silibus per subjek (KSSM T3)
 
@@ -90,6 +91,12 @@ Tatabahasa (golongan kata, imbuhan, ayat aktif/pasif, ayat majmuk), peribahasa &
 
 *Nombor & tajuk pelajaran berbeza sedikit antara sumber; rujuk buku teks/DSKP rasmi untuk senarai muktamad.*
 
+### RBT — Reka Bentuk dan Teknologi (elektif; 4 domain: apresiasi reka bentuk, aplikasi teknologi, penghasilan produk, penilaian reka bentuk)
+1. **Aplikasi Teknologi — Reka Bentuk Mekatronik**: gabungan mekanikal, elektrik, elektronik & kawalan; rajah blok input → proses (mikropengawal/Arduino) → output; penderia (LDR, inframerah, ultrasonik, suhu) & penggerak (servo, motor DC, LED, pembaz); pengaturcaraan & carta alir
+2. **Pembangunan Produk** (sesetengah edisi: *Penghasilan Produk*): kajian keperluan pelanggan, brief projek, penjanaan idea, lakaran 2D/3D (isometrik, oblik, bentuk letupan), elemen & prinsip reka bentuk, lukisan kerja, jadual kerja, senarai bahan & kos, mock-up/prototaip, pengujian, dokumentasi
+3. **Reka Bentuk dalam Perniagaan — Reka Bentuk sebagai Instrumen Pemasaran**: peranan reka bentuk dalam pemasaran, 4 bentuk penjenamaan (nama, cap, cap dagangan, persendirian), 7 kaedah reka bentuk pengiklanan, media pengiklanan & faktor pemilihan
+- Kerja projek T3: murid memilih sekurang-kurangnya **dua bidang ilmu aplikasi teknologi** yang telah dipelajari.
+
 ### Bahasa Inggeris
 Grammar (tenses, conditionals, passive voice, reported speech, modals, relative pronouns, prepositions), vocabulary, reading comprehension, writing (email, article, review, story) — CEFR A2/B1.
 
@@ -106,6 +113,7 @@ Grammar (tenses, conditionals, passive voice, reported speech, modals, relative 
 | BM | Imbuhan, ayat pasif, peribahasa, unsur KOMSAS (nilai & pengajaran) | Bahagian tatabahasa & KOMSAS tetap |
 | English | Tenses, passive voice, conditionals, prepositions, vocabulary in context | Grammar cloze & MCQ |
 | Pendidikan Islam | **Hukum Mad** (kenal pasti jenis mad), sifat wajib rasul & Ulul ‘Azmi, urutan peristiwa hari akhirat, takdir mubram/mu‘allaq, isi Perjanjian Hudaibiyah & sebab Fathu Makkah, solat sunat Tahiyyatul Masjid/Hajat | Soalan kenal pasti tajwid & fakta sirah bertarikh hampir pasti keluar |
+| RBT | **Padanan input–output mekatronik** (LDR→LED, inframerah→pembaz, ultrasonik→servo), **simbol carta alir**, jenis lakaran (isometrik 30°, bentuk letupan), elemen vs prinsip reka bentuk, **4 bentuk penjenamaan**, **7 kaedah pengiklanan**, kos bahan & harga jualan | Kertas model UASA RBT banyak guna soalan padanan & situasi |
 
 ## 5. Implikasi reka bentuk app (diterjemah daripada research)
 1. **Nota ringkas + Formula** per bab — ringkas, berpoin, mudah hafal.
@@ -130,4 +138,5 @@ Grammar (tenses, conditionals, passive voice, reported speech, modals, relative 
 - Pandai — Pendidikan Islam T3: https://app.pandai.org/note/list/kssm-f3/kssm-pi · Bab Al-Quran: https://app.pandai.org/learn/chapter/kssm-f3-pi-01/al-quran · Bab Fiqah: https://app.pandai.org/learn/chapter/kssm-f3-pi-04/feqah
 - Imazzmedia — Nota Pendidikan Islam T3 KSSM: https://www.imazzmedia.com/p/nota-pendidikan-islam-tingkatan-3-kssm.html
 - DSKP Pendidikan Islam T3 (SlideShare): https://www.slideshare.net/slideshow/005-dskp-kssm-pendidikan-islam-tingkatan-3/134287454
+- RBT T3: DSKP (SlideShare) https://www.slideshare.net/slideshow/dskp-kssm-reka-bentuk-dan-teknologi-tingkatan-3pdf/252109711 · Buku teks (Student Portal) https://studentportal.my/buku-teks-rbt-tingkatan-3/ · Pandai Bab 2 https://app.pandai.org/learn/chapter/kssm-f3-rb-02/pembangunan-produk · Nota Cikgu Ooi Bab 1 https://www.slideshare.net/slideshow/rbt-tingkatan-3-bab-1-reka-bentuk-mekatronik-cikgu-ooi/127862128 · Kaedah pengiklanan https://www.slideshare.net/slideshow/3-2-kaedah-reka-bentuk-pengiklanan-t3-rbt/277751098 · Kertas Model UASA RBT T3 https://anyflip.com/nnszl/vqhz/basic
 - Pelangi — Koleksi Kertas Model UASA T3: https://store.pelangibooks.com/products/koleksi-kertas-model-uasa-kssm-2025-tingkatan-3
